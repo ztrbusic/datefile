@@ -16,6 +16,7 @@ This is just an initial version that can only _read_ exif and filenames and repo
 
 ## Installation
 `brew install exiftool` - needed for EXIF processing
+
 `pip install -e .` - installs in editable mode during development
 
 ## Usage
@@ -25,10 +26,10 @@ Basic:
 For recursive add `--recursive` or `-r` BEFORE path
 
 ## Future renaming example
-Before:
-IMG_8392.jpg
-VID_20230504_183200.mp4
+Before:  
+IMG_8392.jpg  
+VID_20230504_183200.mp4  
 
-After:
-2023-05-04_18-32-00.jpg
+After:  
+2023-05-04_18-32-00.jpg  
 2023-05-04_18-32-00.mp4
