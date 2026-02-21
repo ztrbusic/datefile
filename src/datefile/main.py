@@ -136,7 +136,3 @@ def scan(
 def rename():
     """Rename files (coming soon)."""
     raise typer.Exit(code=0)
-
-
-if __name__ == "__main__":
-    app()

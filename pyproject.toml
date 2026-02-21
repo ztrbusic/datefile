@@ -6,7 +6,8 @@ requires-python = ">=3.11"
 dependencies = [
   "typer",
   "rich",
-  "pathlib"
+  "pathlib",
+  "Pillow"
 ]
 
 [project.scripts]
