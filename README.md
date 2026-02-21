@@ -1,4 +1,4 @@
-# DATEFILE v0.1.0
+# DATEFILE
 
 A small Python CLI tool that renames photos and videos based on their capture date using ExifTool or filename information. Built for clean, predictable media organisation.
 
@@ -23,7 +23,7 @@ This is just an initial version that can only _read_ exif and filenames and repo
 Basic:
 `datefile scan path/to/folder`
 
-For recursive add `--recursive` or `-r` BEFORE path
+For recursive: `datefile scan --recursive path/to/folder`
 
 ## Future renaming example
 Before:  
